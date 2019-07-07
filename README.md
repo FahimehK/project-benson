@@ -2,7 +2,7 @@
 ## Metis Project-01 MTA Data Analysis
 
 
-### **Primary Goals:** 
+### *Primary Goals:*
 
 Our primary goal in this presentation is to maximize the number of signatures obtained at subway station entrances/exits via street marketing teams, focusing on those individuals who will attend the gala and contribute to WTWY’s cause.
 

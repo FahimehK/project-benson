@@ -33,14 +33,14 @@ Look at housing value data in zip codes near stations to determine high-income e
 
 We need to convert the date into a standard date time object by day of the week. 
 
-Data URLs with labels: 
+### *Data URLs with labels:*
 
 
 
 
 (used browser extension mass downloader to batch download all of these onto my local drive)
 
-Working Steps: 
+### *Working Steps:* 
 
 For determining MTA stations with the greatest traffic 
 
@@ -97,7 +97,7 @@ Zillow home values in NYC
 
 If we find that some of our most trafficked stations are in the zip code of the prominent tech companies + the top homes. We should recommend that client staff street marketing teams there. 
 
-UPDATE:
+### *UPDATE:*
 
 We should focus on the quality of leads vs. the quantity of traffic at the station. While it is important to clean the data and have an understanding of how to parse by day, hour etc. We should only use the turnstile data to obtain a general understanding as to overall traffic, general peak times and trends throughout days of the week.
 
@@ -136,49 +136,4 @@ External Data Sets / Zip Codes / Tech Companies (Shuo)
 Conclusions / Findings / Areas for future study (Nick
 Questions? (All)
 Appendices (if time permits) (All)
-
--------
-
-
-Challenge 1 (Steps):
-
-After importing the data and doing an initial clean, we need to create a dictionary from the data in which the KEY is essentially all the information regarding the station (C/A, UNIT, SCP, STATION) which is the first 4 columns (or by index 0:4). 
-The value for this key should be a list of lists. Each list in the list is the rest of the columns in any given row. 
-As an example, one key-value pair should look like:
-{ ('A002','R051','02-00-00','LEXINGTON AVE'): [ ['NQR456', 'BMT', '01/03/2015', '03:00:00', 'REGULAR', '0004945474', '0001675324'], ['NQR456', 'BMT', '01/03/2015', '07:00:00', 'REGULAR', '0004945478', '0001675333'], ['NQR456', 'BMT', '01/03/2015', '11:00:00', 'REGULAR', '0004945515', '0001675364'], ... ] }
-To do this we need to first init an empty dict and assign it a variable. We’ll use my_dict_1 = {}
-We will next need to create a for loop that iterates through each row in the dataframe. 
-To do this we need to utilize the pandas method .iterrows. This iterates over a df as (index, series) pairs. 
-To have this loop iterate over all the rows then we need to call the following:
-For index row in df.iterrows().
-We will then need to assign two additional variables for our dict. Key and Value.
-Key will be a type tuple and will include column index 0:4
-We will also need to make sure this iterates over every row 
-Code: key = tuple(row[df.columns[0:4]].values)
-Value will be a type list and will include column index 4:
-Code: val = list(row[df.columns[4:]].values)
-Finally we put this all together in the following way
- df_dict[key] = df_dict.get(key,[]) + [val]
-
-Challenge 2 Steps: 
-
-Before we begin, we will need to import dateutil.parser to solve this problem
-Here, we need retain the same key but for the values, we need to the value to be simply the point in time and the count of entries. (only the date, the time, and the entries columns for the values)
-We again start by initializing an empty dict {}
-Again, we will run the same for loop as we are iterating over all the rows of the dataframe. The key will also be the same per the question prompt
-We next need to create a str variable (I called mine datetime_str) and concatenate the date and the time rows with the following code:
- datetime_str = row['DATE'] + ' ' + row['TIME']
-Next, we use the dateutil modeule to convert our above string into a datetime object. We do this with the following:
-datetime_parsed = dateutil.parser.parse(datetime_str) 
-For our value variable we need the newly created datetime object above as well as the entries column:
-val = [datetime_parsed, row['ENTRIES']]
-
-Challenge 3 Steps:
-
-
-
- 
-
-
-
 

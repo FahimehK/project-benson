@@ -2,7 +2,7 @@
 ## Metis Project-01 MTA Data Analysis
 
 
-### Primary Goals: 
+### **Primary Goals:** 
 
 Our primary goal in this presentation is to maximize the number of signatures obtained at subway station entrances/exits via street marketing teams, focusing on those individuals who will attend the gala and contribute to WTWY’s cause.
 
@@ -35,50 +35,7 @@ We need to convert the date into a standard date time object by day of the week.
 
 Data URLs with labels: 
 
-2019 Data
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190525.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190518.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190511.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190504.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190427.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190420.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190413.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190406.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190330.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190323.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190316.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190309.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_190302.txt 
 
-2018 Data
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180526.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180519.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180512.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180505.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180428.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180421.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180414.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180407.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180331.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180324.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180317.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180310.txt  
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_180303.txt
-
-2017 Data 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170527.txt 
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170520.txt
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170513.txt
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170506.txt
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170429.txt
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170422.txt
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170415.txt
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170408.txt
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170401.txt
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170325.txt
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170318.txt
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170311.txt
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_170304.txt
 
 
 (used browser extension mass downloader to batch download all of these onto my local drive)

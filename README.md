@@ -4,11 +4,10 @@
 
 ### *Primary Goals:*
 
-
 Our primary goal in this presentation is to maximize the number of signatures obtained at subway station entrances/exits via street marketing teams, focusing on those individuals who will attend the gala and contribute to WTWY’s cause.
 
-### *Methods/Write-Up:* 
 
+### *Methods/Write-Up:* 
 
 To do so, we will look at MTA subway data as well as NYC Census data to determine, not just the busiest stations, but the stations with the most value-added individuals considering our prompt above. In addition, we plan to look at technology companies in the areas near stations to determine best allotment of street marketing team placement. 
 
@@ -32,8 +31,8 @@ Determine the presence of other tech companies in the areas near strations
 Benchmark promotional periods for other conventions
 Look at housing value data in zip codes near stations to determine high-income earners
 
-
 We need to convert the date into a standard date time object by day of the week. 
+
 
 ### *Data URLs with labels:*
 
@@ -41,6 +40,7 @@ We need to convert the date into a standard date time object by day of the week.
 
 
 (used browser extension mass downloader to batch download all of these onto my local drive)
+
 
 ### *Working Steps:* 
 
@@ -124,18 +124,4 @@ Y axis needs to be total traffic
 
 Time permitting we can break this down into entries and exits but for now we should start with total traffic
 
-
----------
-
-Proposed slides: (may need to update...see above)
-
-Into + Problem Statement (Nick)
-Desc of scope + methodology (Nick
-(chart)Overall Traffic Patterns (Daily Entries + Exits holistically) (Shuo)
-(chart)Hourly Traffic Patterns (Shuo)
-External Data Sets / Zip Codes / Tech Companies (Shuo)
-(chart) Integration of External Data sets with (Shuo)
-Conclusions / Findings / Areas for future study (Nick
-Questions? (All)
-Appendices (if time permits) (All)
 

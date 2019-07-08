@@ -11,7 +11,9 @@ To do so, we will look at MTA subway data as well as NYC Census data to determin
 
 ### *Data URLs with labels:*
 
-Here is the link to [MTA Data](http://web.mta.info/developers/turnstile.html).
+1. Here is the link to [MTA Data](http://web.mta.info/developers/turnstile.html).
+2. Here is the link to [New York Home Prices & Values Data](https://www.zillow.com/new-york-ny/home-values/).
+3. Here is the link to [Data Reference:Mapping NYC's top 10 most funded zip codes](https://www.builtinnyc.com/2016/08/09/nyc-fundings-zipcode-2016).
 
 (used browser extension mass downloader to batch download all of these onto my local drive)
 

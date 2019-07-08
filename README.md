@@ -36,7 +36,7 @@ We used browser extension mass downloader to batch download all of these onto lo
 #### Step 2 Data cleansing
 Determine which columns will be value-added to support our above goals. Drop any columns that are unneeded for our analysis. Critically look at data in comparison to our goals and determine what we needed to edit/clean in order to effectively answer our questions.
 
-After importing the data we find that each day of collection is broken up into 6 ‘collection periods. It appears that the a cumulative count of the turnstiles is taken at the following time: 3AM, 7AM, 11AM, 3PM, 7PM, and 11PM. This means there are a total of 6 "4-hour" collection periods within each day of the dataset. 
+After importing the data we find that each day of collection is broken up into 6 ‘collection periods. It appears that the a cumulative count of the turnstiles is taken at the following time: 3AM, 7AM, 11AM, 3PM, 7PM, and 11PM. This means usually there are a total of 6 "4-hour" collection periods within each day of the dataset. 
 
 Looking at the collection statistics it appears that the total number of entrances and exits are cumulative. However, there are random additions and subtractions to the data that we will need to take into account. For example, the cumulative exit count at the end of one day then is lower the following day. We thus need to take into account any outliers in the data. 
 

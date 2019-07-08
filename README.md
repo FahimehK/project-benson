@@ -39,6 +39,9 @@ Determine which columns will be value-added to support our above goals. Drop any
 After importing the data we find that each day of collection is broken up into 6 ‘collection periods. It appears that the a cumulative count of the turnstiles is taken at the following time: 3AM, 7AM, 11AM, 3PM, 7PM, and 11PM. This means usually there are a total of 6 "4-hour" collection periods within each day of the dataset. 
 
 Looking at the collection statistics it appears that the total number of entrances and exits are cumulative. However, there are random additions and subtractions to the data that we will need to take into account. For example, the cumulative exit count at the end of one day then is lower the following day. We thus need to take into account any outliers in the data. 
+> For those extremely large entries_diff and exist_diff values, we see them as outliers and remove them.
+> For those negative entries_diff and exist_diff values, we see them as the result of resetting records and remove them.
+> For those negative entries_diff and exist_diff values as 0s, we cannot decide if they happen due to the recording not working or no traffic actually happen during that time block, so we keep them for now.
 
 For the DESC column we filtered this column for REGULAR so that we do not collect irregular patterns in the data. We should constantly be capturing 4-hour blocks of information or ‘regular’ auditing periods. 
 

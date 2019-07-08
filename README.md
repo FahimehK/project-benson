@@ -10,8 +10,8 @@ To do so, we will look at MTA subway data as well as NYC Census data to determin
 
 
 ### *Data URLs with labels:*
-
-1) Here is the link to [MTA Data]:(http://web.mta.info/developers/turnstile.html).
+Here's an inline link to [Google](http://www.google.com/).
+Here is the link to **[MTA Data]**(http://web.mta.info/developers/turnstile.html).
 
 (used browser extension mass downloader to batch download all of these onto my local drive)
 

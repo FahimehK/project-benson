@@ -18,36 +18,20 @@ To do so, we will look at MTA subway data as well as NYC Census data to determin
 
 ### *Methods/Write-Up:* 
 
-
-Before continuing we did have some constraints on this project: 
-
-What is their marketing budget for street teams? (to determine how many stations we can post people at)
-Historical data about their previous collection efforts? (the email mentions they have done collections before...I’d be interested to see the demographic information of those that signed up...I’d also be interested in looking at who actually donated/attended the gala from the sign-ups
-Primary promotional period for conventions? (how long in advance do typical conventions promote their event?)
-
-These constraints led us to a number of assumptions: 
 We should target high-income earners with a bachelor’s degree or higher. We assume those with a higher income will be more willing/able to donate.
-While both males and females may be interested in the cause, we should primarily target females considering the company in question
-We should target those working for tech companies in the area
-We should focus on marketing the event in the Spring season leading up to summer (March - May)
+While both males and females may be interested in the cause, we should primarily target females considering the company in question.
+We should target those working for tech companies in the area.
+We should focus on marketing the event in the Spring season leading up to summer (March - May).
 
 Possible ways to address the problem: 
-Determine the busiest stations within a set collection period
-Determine time of day with highest traffic per station
-Determine the demographic information for each station (focusing on those who will attend the gala and contribute to their cause)
-Determine the presence of other tech companies in the areas near strations
-Benchmark promotional periods for other conventions
-Look at housing value data in zip codes near stations to determine high-income earners
+Determine the busiest stations within a set collection period.
+Determine time of day with highest traffic per station.
+Determine the demographic information for each station (focusing on those who will attend the gala and contribute to their cause).
+Determine the presence of other tech companies in the areas near strations.
+Benchmark promotional periods for other conventions.
+Look at housing value data in zip codes near stations to determine high-income earners.
 
 We need to convert the date into a standard date time object by day of the week. 
-
-
-
-
-
-
-
-
 
 
 ### *Working Steps:* 

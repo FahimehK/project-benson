@@ -13,9 +13,7 @@ To do so, we will look at MTA subway data as well as NYC Census data to determin
 
 1. Here is the link to [MTA Data](http://web.mta.info/developers/turnstile.html).
 2. Here is the link to [New York Home Prices & Values Data](https://www.zillow.com/new-york-ny/home-values/).
-3. Here is the link to [Data Reference:Mapping NYC's top 10 most funded zip codes](https://www.builtinnyc.com/2016/08/09/nyc-fundings-zipcode-2016).
-
-(used browser extension mass downloader to batch download all of these onto my local drive)
+3. Here is the link to [Data Reference: Mapping NYC's top 10 most funded zip codes](https://www.builtinnyc.com/2016/08/09/nyc-fundings-zipcode-2016).
 
 
 ### *Methods/Write-Up:* 
@@ -54,6 +52,7 @@ We need to convert the date into a standard date time object by day of the week.
 
 ### *Working Steps:* 
 
+(used browser extension mass downloader to batch download all of these onto my local drive)
 For determining MTA stations with the greatest traffic 
 
 Combined above txt files into singular files and read into our notebook. Note: this is a huge amount of data so we will start with a single year and branch out from there.

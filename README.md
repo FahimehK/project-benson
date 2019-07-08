@@ -50,14 +50,15 @@ As a start we should take the station/turnstile data and sum to get a daily tota
 From here, we should take these top stations in the dataset and look at day of the week in order to understand how weekday vs. weekend traffic affects their overall position in the dataset. 
 
 #### Step 3 Data Analysis and Visualization
-To do this we need to group daily entries and exits together and see how the number trends per day of the week across the collection period
-Group by Day of the Week and then sum the total traffic
-Clearly the weekday traffic is much stronger
-Table would be station...day of week….total traffic
+To do this we group daily entries and exits together and then sum the totoal traffic. Clearly the weekday traffic is much stronger. So we would prefer to allocate the fund raising resources to reach out on weekdays.
 
-Finally, we should break down this daily column into the hourly collection periods to understand how the traffic volume changes per day. This is where we’ll want to split off into both an entries and exit graph to see traffic patterns per station at certain times of the day (see above point re: montgomery station and commuters) 
+# Here should insert a graph. Table would be station...day of week….total traffic
 
-Here we will need to first identify our top stations...we can start with 5-10.
+We also break down this daily column into the hourly collection periods to understand how the traffic volume changes per day. This is where we’ll want to split off into both an entries and exit graph to see traffic patterns per station at certain times of the day (see above point re: montgomery station and commuters).
+
+# Here should insert a graph.
+
+Here we will need to first identify our top stations. We can start with 5-10.
 We will need to group by stations and then display the hourly total of traffic
 
 We should plot a line chart of the top stations in both above instances to visually see patterns in the data. 

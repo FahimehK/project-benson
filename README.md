@@ -6,10 +6,18 @@
 
 Our primary goal in this presentation is to maximize the number of signatures obtained at subway station entrances/exits via street marketing teams, focusing on those individuals who will attend the gala and contribute to WTWY’s cause.
 
+To do so, we will look at MTA subway data as well as NYC Census data to determine, not just the busiest stations, but the stations with the most value-added individuals considering our prompt above. In addition, we plan to look at technology companies in the areas near stations to determine best allotment of street marketing team placement. 
+
+
+### *Data URLs with labels:*
+
+1) Here is the link to **[MTA Data]:** (http://web.mta.info/developers/turnstile.html).
+
+(used browser extension mass downloader to batch download all of these onto my local drive)
+
 
 ### *Methods/Write-Up:* 
 
-To do so, we will look at MTA subway data as well as NYC Census data to determine, not just the busiest stations, but the stations with the most value-added individuals considering our prompt above. In addition, we plan to look at technology companies in the areas near stations to determine best allotment of street marketing team placement. 
 
 Before continuing we did have some constraints on this project: 
 
@@ -34,12 +42,12 @@ Look at housing value data in zip codes near stations to determine high-income e
 We need to convert the date into a standard date time object by day of the week. 
 
 
-### *Data URLs with labels:*
 
 
 
 
-(used browser extension mass downloader to batch download all of these onto my local drive)
+
+
 
 
 ### *Working Steps:* 

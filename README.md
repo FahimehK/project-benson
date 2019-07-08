@@ -34,28 +34,19 @@ Possible ways to address the problem:
 We used browser extension mass downloader to batch download all of these onto local drive. Data files come from March to May 2019 for marketing the gala event happens in early summer. We then combined above txt files into singular files and read into our notebook. 
 
 #### Step 2 Data cleansing
-Determine which rows and columns will be value-added to support our above goals. Drop any rows and columns that are unneeded for our analysis. Critically look at data in comparison to our goals and determine what we needed to edit/clean in order to effectively answer our questions.
+Determine which columns will be value-added to support our above goals. Drop any columns that are unneeded for our analysis. Critically look at data in comparison to our goals and determine what we needed to edit/clean in order to effectively answer our questions.
 
 After importing the data we find that each day of collection is broken up into 6 ‘collection periods. It appears that the a cumulative count of the turnstiles is taken at the following time: 3AM, 7AM, 11AM, 3PM, 7PM, and 11PM. This means there are a total of 6 "4-hour" collection periods within each day of the dataset. 
 
 Looking at the collection statistics it appears that the total number of entrances and exits are cumulative. However, there are random additions and subtractions to the data that we will need to take into account. For example, the cumulative exit count at the end of one day then is lower the following day. We thus need to take into account any outliers in the data. 
 
-Furthermore, according to the key at the web.mta site, the column: 
-
-DESC     = Represent the "REGULAR" scheduled audit event (Normally occurs every 4 hours)
-           1. Audits may occur more that 4 hours due to planning, or troubleshooting activities. 
-           2. Additionally, there may be a "RECOVR AUD" entry: This refers to a missed audit that was recovered.
-
-My assumption here is that we should filter this column for REGULAR so that we do not collect irregular patterns in the data. We should constantly be capturing 4-hour blocks of information or ‘regular’ auditing periods. 
-
-Let’s now work through the Metis challenges to parse through this data in an effective and guided way. 
-
-The columns are for both the entries and the exits to the station. Both are important. As an example, think of Montgomery St station at 8am vs. 5pm. We would expect to see a spike in exits (commuters going to work) in the morning and entrances (commuters leaving work) in the evening.
+For the DESC column we filtered this column for REGULAR so that we do not collect irregular patterns in the data. We should constantly be capturing 4-hour blocks of information or ‘regular’ auditing periods. 
 
 As a start we should take the station/turnstile data and sum to get a daily total of both entries and exits PER DAY. This will give us a look at the top stations in the dataset from an overall volume perspective.
 
 From here, we should take these top stations in the dataset and look at day of the week in order to understand how weekday vs. weekend traffic affects their overall position in the dataset. 
 
+#### Step 3 Data Analysis and Visualization
 To do this we need to group daily entries and exits together and see how the number trends per day of the week across the collection period
 Group by Day of the Week and then sum the total traffic
 Clearly the weekday traffic is much stronger
